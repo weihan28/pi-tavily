@@ -1,0 +1,41 @@
+{
+  "name": "pi-tavily",
+  "version": "1.0.0",
+  "description": "Pi extension for Tavily web search, extract, crawl, and map APIs",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "tavily",
+    "web-search",
+    "search",
+    "ai",
+    "research"
+  ],
+  "homepage": "https://github.com/weihan28/pi-tavily#readme",
+  "bugs": {
+    "url": "https://github.com/weihan28/pi-tavily/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weihan28/pi-tavily.git"
+  },
+  "type": "module",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "dependencies": {
+    "@tavily/core": "^0.3.1"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  }
+}
