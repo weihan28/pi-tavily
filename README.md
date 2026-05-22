@@ -30,18 +30,6 @@ pi -e npm:@weihan28/pi-tavily
 pi -e git:github.com/weihan28/pi-tavily
 ```
 
-### Manual installation
-
-Add to your `~/.pi/agent/settings.json` or `.pi/settings.json`:
-
-```json
-{
-  "packages": [
-    "npm:pi-tavily"
-  ]
-}
-```
-
 ## Setup
 
 ### Get an API Key
