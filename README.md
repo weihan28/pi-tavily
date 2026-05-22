@@ -14,13 +14,20 @@ A [pi](https://pi.dev) extension that adds web search and content extraction cap
 ### Install from npm
 
 ```bash
-pi install npm:pi-tavily
+pi install npm:@weihan28/pi-tavily
+```
+
+### Install from GitHub
+
+```bash
+pi install git:github.com/weihan28/pi-tavily
 ```
 
 ### Try without installing
 
 ```bash
-pi -e npm:pi-tavily
+pi -e npm:@weihan28/pi-tavily
+pi -e git:github.com/weihan28/pi-tavily
 ```
 
 ### Manual installation
@@ -178,7 +185,7 @@ cd pi-tavily
 npm install
 
 # Test locally
-pi -e ./src/index.ts
+pi -e .
 ```
 
 ## Project Structure
